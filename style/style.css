@@ -1,0 +1,34 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    padding: 4rem;
+}
+
+main{
+ background-color: hsl(0, 0%, 100%);
+ border-radius: 15px;
+ width: 20rem;
+ height: 30rem;
+ display: block;
+ margin: auto;
+}
+
+main > img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 10px;
+    margin: 15px 16px 0px 15px;
+}
+
+main > .title{
+    font-size: 23px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: Outfit;
+}
+
+main > .paragraph{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-family: Outfit;
+}
