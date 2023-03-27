@@ -1,6 +1,8 @@
 body{
     background-color: hsl(212, 45%, 89%);
-    padding: 4rem;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 main{
@@ -9,7 +11,6 @@ main{
  width: 20rem;
  height: 30rem;
  display: block;
- margin: auto;
 }
 
 main > img{
